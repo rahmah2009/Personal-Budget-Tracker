@@ -68,9 +68,7 @@ The main functions are:
 
 Using functions keeps the code organized and easier to manage.
 
-6. Python Concepts Used
-
-This project helped me practice:
+6. Python Concepts that will be Used
 
 - Lists
 - Dictionaries
@@ -104,7 +102,3 @@ The project could be improved by adding:
 - Category spending limits.
 - Budget warnings.
 - An ASCII chart for spending.
-
-9. Conclusion
-
-This project gave me practical experience with basic Python concepts while building something useful. I learned how to store, process, and summarize data using lists, dictionaries, functions, and loops. It also helped me understand how simple programming concepts can be used to build real-world applications.

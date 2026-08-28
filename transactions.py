@@ -30,5 +30,3 @@ def add_transaction(transactions, type):
 
     else:
         print("Invalid transaction type. Please enter 'income' or 'expense'.")
-
-bb

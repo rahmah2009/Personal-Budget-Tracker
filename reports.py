@@ -9,17 +9,22 @@ transactions = [
     {
         "type": "expense",
         "category": "Transport",
-        "amount": 3000
+        "amount": 10000
     },
     {
         "type": "expense",
         "category": "Food",
-        "amount": 2000
+        "amount": 10000
+    },
+    {
+        "type": "expense",
+        "category": "School",
+        "amount": 15000
     },
     {
         "type": "expense",
         "category": "Data",
-        "amount": 1500
+        "amount": 10000
     }
 ]
 
@@ -31,8 +36,8 @@ def view_by_category():
             category = transaction['category']
             amount = transaction['amount']
 
-        if category not in categories:
-            categories[category] = 0
+            if category not in categories:
+             categories[category] = 0
 
         categories[category] += amount
 
